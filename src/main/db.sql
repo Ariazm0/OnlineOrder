@@ -1,5 +1,5 @@
 drop database if exists onlineorder;
-create database onlineorder;
+create database if not exists onlineorder character set utf8;
 use onlineorder;
 
 drop table if  exists dishes;
